@@ -1,29 +1,35 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: monospace;
+  font-family: 'Days One', sans-serif;';
   margin: 2em;
   width: 100%;
   height: 100%;
+  background-color: cornsilk;
+}
+
+a{
+  color: cornsilk;
 }
 
 h1 {
-  color: #373fff;
-  font-size: 18pt;
+  color: crimson;
+  font-size: 30pt;
 }
 .special-h2{
   margin-top:0;
 }
 h2 {
   font-size: 18pt;
+  color: darkgrey;
 /*   margin-top:0; */
 }
 
 button {
-  font-family: "Inconsolata", monospace;
-  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  background-color: cornsilk;
   border: none;
-  color: white;
+  color: maroon;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -35,6 +41,7 @@ button {
 }
 
 p {
+  color:maroon;
   font-size: 12pt;
   line-height: 18pt;
 }
@@ -84,6 +91,8 @@ ul {
 }
 
 li {
+  font-family: 'Poppins', sans-serif;
+  color:maroon;
   font-size: 12pt;
   list-style-type: none;
   padding-bottom: 1em;
@@ -96,11 +105,11 @@ li.bullet {
 }
 
 li.bullet a {
-  color: blue;
+  color: maroon;
 }
 
 li a {
-  color: black;
+  color: maroon;
   /*   text-decoration: none; */
 }
 
