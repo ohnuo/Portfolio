@@ -8,6 +8,65 @@ body {
   background-color: cornsilk;
 }
 
+body.project-9 {
+  background-color: ghostwhite;
+  color: "ff96ff";
+}
+
+h1.project-9{
+  color: "ff96ff";
+}
+
+.aura-2 {
+  margin:0px;
+  padding: 0px;
+
+}
+
+.type1 {
+         width: 50%;
+         display: block;
+         margin: 0px auto;
+         margin-top: 50%;
+         left: 50%;
+
+}
+
+.aura-1 {
+  margin: 0px;
+  padding:0px;
+}
+
+.type2 {
+  width:50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,-50%);
+}
+
+.p-5{
+  position: absolute;
+  top:95%;
+  left:40%;
+}
+
+.section-2{
+position:absolute;
+  text-align: center;
+  top:120%;
+  left:40%;
+}
+.section-1 {
+  font-size: 12pt;
+  color: "5cee54";
+  position:absolute;
+  text-align: left;
+  top:140%;
+  left:40%;
+}
+
+
 a{
   color: cornsilk;
 }
@@ -214,7 +273,18 @@ body .gist .gist-meta {
   .content {
     width: 100%;
     float: left;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
   }
+
+  .img-container {
+  flex: 1;
+}
+
+.sketch-container {
+  flex: 1;
+}
 
   img {
     width: 100%;

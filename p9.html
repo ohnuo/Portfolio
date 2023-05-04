@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Your Name | Code 2 Portfolio</title>
+    <title>Nuo | Code 2 Portfolio</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,10 +13,11 @@
     <script src="/script.js" defer></script>
   </head>
 
-  <body>
+  <body class="project-9">
+
+    <nav>
     <!-- navigation menu -->
-    <div class="nav">
-      <h1>Your Name</h1>
+      <a href="index.html"><h1>Nuo</h1></a>
       <ul>
         <li>Project <a href="p1.html">#1</a></li>
         <li>Project <a href="p2.html">#2</a></li>
@@ -31,10 +32,80 @@
     </div>
 
     <!-- main content -->
+    <h1 class="project-9">
+      Project #9 Experimental Web Camera
+    </h1 >
+    <div class="fullwidth">
     <div class="content">
-      <p>
-        Coming soon
-      </p>
+
+      
+      <!--load the image-->
+
+      <div class = "aura-2">
+
+
+      <img src="img/aura2.png" alt="" class="type1">
+
+    </div>
+
+    <div class = "aura-1">
+
+    <img src="img/aura1.png" alt="" class="type2">
+
+  </div>
+
+
+      <script>
+        // Request permission for the camera
+        navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function(stream) {
+          console.log('Camera permission granted');
+        })
+        .catch(function(error) {
+          console.log('Camera permission denied:', error);
+        });
+      </script>
+    
+    <!--p5 sketch-->
+    <div class = "p-5">
+      <iframe style="width:400px;height:280px;" src="https://editor.p5js.org/hjiang-languid/full/71Os_AFFz"></iframe>
+
+    </div>
+
+      <div class = "section2">
+
+
+      <h1><FONT COLOR = "ff96ff">How does migraine with aura feel like?</FONT></h1>
+
+    </div>
+
+      <div class = "section-1">
+        
+      <h2> <FONT COLOR = "5cee54">
+        This is a web camera designed to let users experience the visual disturbance called "aura" when having magraine.  
+
+      </FONT></h2>
+
+      <p> <FONT COLOR = "ff684e ">
+      I have endured magraine with aura many times. Before the headache starts, my vision gets blurry, and a colorful zig-zag shape starts appearing in one side of my vision. I know I'm going to have migraine when this aura appears. It is impossible to focus on seeing things at this time. I feel lucky when it appears at least when I'm at home. Then the headache starts, and the aura gradually disappears. The pain is not the worst part, but the dizzyness is. I feel like having the worst car-sick and want to throw up. 
+
+      </FONT></p>
+
+      <p> <FONT COLOR = "67b8ef">
+
+        It is not uncommon to have migraine. In fact, it affects an estimated more than 10% of people worldwide. 25 to 30% percent of the patients experience aura. Migraine occurs most often among people aged 20 to 50 years and is about 3 times more common in women than in men. In a large US survey, 17.1% of women and 5.6% of men reported having migraine symptoms. However, the exact cause of migraine is still unknown, so there is no effective treatment for migraine yet. Migraine is also a constant worry. You are afraid it comes when you are doing something important;  when you don't have painkillers around and when you are outside and can't find a quiet place to rest...
+
+        </FONT></p>
+
+        <p> <FONT COLOR = "b047f3">
+
+       
+       However, migraine is usually misunderstood by people who don't have it. During my research online, I find many patients feel frustrated and alienated when surrounded by people who think they are too weak and are overacting to a simple headache. Many say it is difficult to let families, friends, and co-workers understand that they have to rest when a migraine appears. I got a migraine suddenly two years ago. It is something that just comes and starts to affect my life, while there is nothing I can do to stop it. I hope by experiencing the aura through this web camera, you get to know a bit about how migraine feels like and become more understanding when someone you know is having a migraine. 
+
+          </FONT></p>
+
+    </div>
+  </div>
     </div>
   </body>
 </html>
